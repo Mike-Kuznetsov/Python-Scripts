@@ -1,14 +1,14 @@
+# This script compares folders and files inside specified disk1 with folders and files inside specified disk2
+# It compares only existance of files or folders not integrity
+# You can compare folders (not disks) either, just specify location instead of disk letter. 
+# Example: disk1=r"C:\myGames"
+
+disk1=r"D:"
+disk2=r"F:" 
+
 from os import listdir
 from os.path import isdir
-#print(listdir(r"D:"))
 from time import sleep
-"""while True:
-        inp = input()
-        if (inp == "go"):
-            sleep(5)
-            break"""
-disk1=r"D:"
-disk2=r""
 def checkFolder(addedPath):
     path1=disk1+addedPath
     path2=disk2+addedPath
