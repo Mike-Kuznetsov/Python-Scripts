@@ -1,0 +1,3 @@
+kek1 = 150
+kek2 = kek1 + 1
+print(kek1, kek2)

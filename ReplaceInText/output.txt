@@ -1,0 +1,3 @@
+newVariableName = 150
+kek2 = newVariableName + 1
+print(newVariableName, kek2)
