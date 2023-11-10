@@ -1,4 +1,7 @@
-path="M:\\"
+#This script saves the names of files on specific disk or in specific folder
+
+path="C:\\"
+
 import os
 from os import listdir
 
